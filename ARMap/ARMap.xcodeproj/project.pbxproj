@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D58CCD5D677C2EEC0AEBD1A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF382B23B0C3223EE11309B1 /* libPods.a */; };
+		85E6F29D1C3D3FA900C733AB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E6F29C1C3D3FA900C733AB /* MapKit.framework */; };
+		85E6F2A41C3D4DBF00C733AB /* eCDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E6F2A31C3D4DBF00C733AB /* eCDataCenter.m */; };
 		85EC43161C3D179C00E58370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC43151C3D179C00E58370 /* main.m */; };
 		85EC43191C3D179C00E58370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC43181C3D179C00E58370 /* AppDelegate.m */; };
-		85EC431C1C3D179C00E58370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC431B1C3D179C00E58370 /* ViewController.m */; };
+		85EC431C1C3D179C00E58370 /* ARMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EC431B1C3D179C00E58370 /* ARMapViewController.m */; };
 		85EC431F1C3D179C00E58370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85EC431D1C3D179C00E58370 /* Main.storyboard */; };
 		85EC43221C3D179C00E58370 /* ARMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85EC43201C3D179C00E58370 /* ARMap.xcdatamodeld */; };
 		85EC43241C3D179C00E58370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EC43231C3D179C00E58370 /* Assets.xcassets */; };
@@ -17,17 +20,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C2A97236EB7D56501AF655C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85E6F29C1C3D3FA900C733AB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		85E6F2A31C3D4DBF00C733AB /* eCDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eCDataCenter.m; sourceTree = "<group>"; };
+		85E6F2A51C3D4DC500C733AB /* eCDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eCDataCenter.h; sourceTree = "<group>"; };
 		85EC43111C3D179C00E58370 /* ARMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EC43151C3D179C00E58370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85EC43171C3D179C00E58370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85EC43181C3D179C00E58370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85EC431A1C3D179C00E58370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85EC431B1C3D179C00E58370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85EC431A1C3D179C00E58370 /* ARMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARMapViewController.h; sourceTree = "<group>"; };
+		85EC431B1C3D179C00E58370 /* ARMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMapViewController.m; sourceTree = "<group>"; };
 		85EC431E1C3D179C00E58370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85EC43211C3D179C00E58370 /* ARMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARMap.xcdatamodel; sourceTree = "<group>"; };
 		85EC43231C3D179C00E58370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85EC43261C3D179C00E58370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85EC43281C3D179C00E58370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC1A1D349C56D89AD7ED91A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF382B23B0C3223EE11309B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +44,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E6F29D1C3D3FA900C733AB /* MapKit.framework in Frameworks */,
+				3D58CCD5D677C2EEC0AEBD1A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ED74A13E24129A1E0265E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E6F29C1C3D3FA900C733AB /* MapKit.framework */,
+				FF382B23B0C3223EE11309B1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D3772A29D8BEA5CD31DD21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1A1D349C56D89AD7ED91A /* Pods.debug.xcconfig */,
+				5C2A97236EB7D56501AF655C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85E6F2981C3D362900C733AB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				85EC43171C3D179C00E58370 /* AppDelegate.h */,
+				85EC43181C3D179C00E58370 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		85E6F29A1C3D364300C733AB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85EC431A1C3D179C00E58370 /* ARMapViewController.h */,
+				85EC431B1C3D179C00E58370 /* ARMapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		85E6F29B1C3D365100C733AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85E6F2A51C3D4DC500C733AB /* eCDataCenter.h */,
+				85E6F2A31C3D4DBF00C733AB /* eCDataCenter.m */,
+				85EC431D1C3D179C00E58370 /* Main.storyboard */,
+				85EC43231C3D179C00E58370 /* Assets.xcassets */,
+				85EC43251C3D179C00E58370 /* LaunchScreen.storyboard */,
+				85EC43281C3D179C00E58370 /* Info.plist */,
+				85EC43201C3D179C00E58370 /* ARMap.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		85EC43081C3D179C00E58370 = {
 			isa = PBXGroup;
 			children = (
 				85EC43131C3D179C00E58370 /* ARMap */,
 				85EC43121C3D179C00E58370 /* Products */,
+				80D3772A29D8BEA5CD31DD21 /* Pods */,
+				1ED74A13E24129A1E0265E57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +123,9 @@
 		85EC43131C3D179C00E58370 /* ARMap */ = {
 			isa = PBXGroup;
 			children = (
-				85EC43171C3D179C00E58370 /* AppDelegate.h */,
-				85EC43181C3D179C00E58370 /* AppDelegate.m */,
-				85EC431A1C3D179C00E58370 /* ViewController.h */,
-				85EC431B1C3D179C00E58370 /* ViewController.m */,
-				85EC431D1C3D179C00E58370 /* Main.storyboard */,
-				85EC43231C3D179C00E58370 /* Assets.xcassets */,
-				85EC43251C3D179C00E58370 /* LaunchScreen.storyboard */,
-				85EC43281C3D179C00E58370 /* Info.plist */,
-				85EC43201C3D179C00E58370 /* ARMap.xcdatamodeld */,
+				85E6F2981C3D362900C733AB /* AppDelegate */,
+				85E6F29A1C3D364300C733AB /* View Controllers */,
+				85E6F29B1C3D365100C733AB /* Resources */,
 				85EC43141C3D179C00E58370 /* Supporting Files */,
 			);
 			path = ARMap;
@@ -89,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85EC432B1C3D179C00E58370 /* Build configuration list for PBXNativeTarget "ARMap" */;
 			buildPhases = (
+				DBDE9C9DDA2AA6EB78359650 /* Check Pods Manifest.lock */,
 				85EC430D1C3D179C00E58370 /* Sources */,
 				85EC430E1C3D179C00E58370 /* Frameworks */,
 				85EC430F1C3D179C00E58370 /* Resources */,
+				4477F82B5F7D4FB45801A103 /* Embed Pods Frameworks */,
+				07D04B0C0EEF22912BCB3842 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,6 +174,11 @@
 					85EC43101C3D179C00E58370 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = PREW6LN2MP;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -148,12 +213,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D04B0C0EEF22912BCB3842 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4477F82B5F7D4FB45801A103 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDE9C9DDA2AA6EB78359650 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85EC430D1C3D179C00E58370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85EC431C1C3D179C00E58370 /* ViewController.m in Sources */,
+				85E6F2A41C3D4DBF00C733AB /* eCDataCenter.m in Sources */,
+				85EC431C1C3D179C00E58370 /* ARMapViewController.m in Sources */,
 				85EC43191C3D179C00E58370 /* AppDelegate.m in Sources */,
 				85EC43161C3D179C00E58370 /* main.m in Sources */,
 				85EC43221C3D179C00E58370 /* ARMap.xcdatamodeld in Sources */,
@@ -266,22 +380,26 @@
 		};
 		85EC432C1C3D179C00E58370 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC1A1D349C56D89AD7ED91A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xome.ARMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		85EC432D1C3D179C00E58370 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2A97236EB7D56501AF655C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ARMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xome.ARMap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -305,6 +423,7 @@
 				85EC432D1C3D179C00E58370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
